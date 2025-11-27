@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"b1a9c730f1029bb6","type":"file","file":"curso-js-minecraft/Paleta/mypalette (1).png","x":-520,"y":140,"width":400,"height":275},
+		{"id":"b7a631ef2bc56a3d","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124230738.png","x":-460,"y":-160,"width":280,"height":280},
+		{"id":"83169ae47c572865","type":"file","file":"curso-js-minecraft/Paleta/mypalette (2).png","x":-100,"y":140,"width":400,"height":275},
+		{"id":"5b0ac7e8d7d5b412","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124230720.png","x":320,"y":-130,"width":400,"height":250},
+		{"id":"3bfbbe51e0c3c4d4","type":"file","file":"curso-js-minecraft/Paleta/mypalette.png","x":320,"y":140,"width":400,"height":275},
+		{"id":"773d83b0f730c734","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124230707.png","x":-30,"y":-140,"width":260,"height":260},
+		{"id":"28a2f0c2949d5f6e","type":"file","file":"curso-js-minecraft/Paleta/mypalette (3).png","x":-940,"y":140,"width":400,"height":275},
+		{"id":"23fc9cdb299eae48","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124230626.png","x":-870,"y":-160,"width":260,"height":260},
+		{"id":"66decf6ac0e4f347","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124231114.png","x":-520,"y":460,"width":800,"height":455},
+		{"id":"f3dc964511bc1630","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124231305.png","x":-462,"y":960,"width":342,"height":400},
+		{"id":"062e44a1409e20df","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124231925.png","x":-455,"y":1400,"width":329,"height":400},
+		{"id":"4043e486fe2801f4","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124232012.png","x":-820,"y":960,"width":320,"height":399},
+		{"id":"9b37dcb6b104d0ab","type":"file","file":"curso-js-minecraft/Paleta/mypalette (4).png","x":740,"y":140,"width":400,"height":275},
+		{"id":"7d5d04b67b7f26ed","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124232119.png","x":800,"y":-160,"width":280,"height":280},
+		{"id":"0125bea5d1085f17","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124232252.png","x":-80,"y":960,"width":330,"height":400},
+		{"id":"60d5883502c729dd","type":"text","text":"# 2EB3F6","x":520,"y":1020,"width":250,"height":60},
+		{"id":"3b9d216c9a325d2b","type":"file","file":"curso-js-minecraft/Paleta/Pasted image 20251124233544.png","x":520,"y":480,"width":1639,"height":504},
+		{"id":"a43efc540f55f038","type":"text","text":"# C94058","x":1215,"y":1020,"width":250,"height":60},
+		{"id":"f6eaacf21ed342e8","type":"text","text":"# B0CF35","x":1465,"y":1020,"width":250,"height":60},
+		{"id":"a345a521052448f8","type":"text","text":"# 342426","x":1680,"y":1020,"width":250,"height":60},
+		{"id":"1931b506aadaccc7","type":"text","text":"# 2323FB","x":1909,"y":1020,"width":250,"height":60},
+		{"id":"9ed7daae8fcb4795","type":"text","text":"\t# 7E58C6","x":760,"y":1020,"width":250,"height":60},
+		{"id":"a5b0183b16ee902c","type":"text","text":"Títulos / H1\tAzul Escuro\t#2323fb*\tAlto contraste para leitura, passa autoridade.","x":1930,"y":1160,"width":210,"height":136},
+		{"id":"1eb241fb217967b0","type":"text","text":"Botões / CTA\tVermelho Berry\t#c94058\tCor quente que chama o clique/ação.","x":1215,"y":1160,"width":250,"height":119},
+		{"id":"552965d73dfed382","type":"text","text":"Subtítulos\tRoxo Criativo\t#7e58c6\tDiferenciação visual hierárquica.","x":760,"y":1160,"width":250,"height":109},
+		{"id":"37bed0fb801fb3a0","type":"text","text":"# F3DB1C","x":988,"y":1020,"width":227,"height":60},
+		{"id":"8399f844f1d60976","type":"text","text":"Ícones / Grifos\tAmarelo Solar\t#f3db1c\tAtrai o olhar para pontos específicos.","x":997,"y":1160,"width":210,"height":160},
+		{"id":"0df4770a904d8265","type":"text","text":"Box de Dicas\tAzul Céu\t#2eb3f6\tFundo suave (use com transparência se possível).","x":520,"y":1160,"width":250,"height":156},
+		{"id":"2a8391d5784b6fa4","type":"text","text":"Texto Corrido\tMarrom Escuro\t#342426**\tMais suave e confortável para ler do que preto puro.","x":1680,"y":1160,"width":250,"height":136}
+	],
+	"edges":[
+		{"id":"d0e6e3369848f704","fromNode":"1931b506aadaccc7","fromSide":"bottom","toNode":"a5b0183b16ee902c","toSide":"top"},
+		{"id":"407b2866308ddc47","fromNode":"9ed7daae8fcb4795","fromSide":"bottom","toNode":"552965d73dfed382","toSide":"top"},
+		{"id":"7c339635d7ec1fac","fromNode":"a43efc540f55f038","fromSide":"bottom","toNode":"1eb241fb217967b0","toSide":"top"},
+		{"id":"cb06c50d9d39ed9d","fromNode":"37bed0fb801fb3a0","fromSide":"bottom","toNode":"8399f844f1d60976","toSide":"top"},
+		{"id":"cc24536e2e26cfed","fromNode":"37bed0fb801fb3a0","fromSide":"right","toNode":"a43efc540f55f038","toSide":"left"},
+		{"id":"d135d08acc7ddc53","fromNode":"60d5883502c729dd","fromSide":"bottom","toNode":"0df4770a904d8265","toSide":"top"},
+		{"id":"e090a0fe3c71c97d","fromNode":"a345a521052448f8","fromSide":"bottom","toNode":"2a8391d5784b6fa4","toSide":"top"}
+	]
+}

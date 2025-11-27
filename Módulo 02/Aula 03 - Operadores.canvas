@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"11f81e0e910e1d2b","type":"text","text":"# Aula 03 - Operadores","x":-100,"y":-140,"width":300,"height":72,"color":"2"},
+		{"id":"1b1b1ff666bde148","type":"text","text":"# Desafio 02\nCrie um script que verifique se um valor é par, seu script deve retornar \"true\" caso o valor seja par","x":75,"y":-425,"width":250,"height":174,"color":"1"},
+		{"id":"0a390d7eaba5f1f4","type":"text","text":"#  Desafio 01\nCrie um script que some  dois valores e mostre seu resultado","x":-348,"y":-365,"width":357,"height":114,"color":"1"},
+		{"id":"1b2881403125dd84","type":"text","text":" - Igual ==\n - Diferente !=\n - Igual restrito ===\n - Diferente restrito !==\n - Maior que >\n - Menor que < \n - Maior ou igual >=\n - Menor ou igual <=","x":-1080,"y":79,"width":250,"height":245,"color":"1"},
+		{"id":"c74eb08be30ebf36","type":"text","text":"Comparação","x":-780,"y":172,"width":250,"height":60,"color":"1"},
+		{"id":"204f2bb598126301","type":"text","text":"+\tAdição + \n-\tSubtração - \n*\tMultiplicação *\n- Divisão / \n- Módulo (resto) %\n- Exponenciação **\n- Incremento ++\n- Decremento --","x":-1080,"y":-245,"width":250,"height":293,"color":"1"},
+		{"id":"f607b6c1ad750b15","type":"text","text":"Aritméticos","x":-780,"y":-128,"width":250,"height":60,"color":"1"},
+		{"id":"3445bcb68a023ac4","type":"text","text":"- && AND\n- ! NOT\n- || OR","x":-1080,"y":412,"width":250,"height":94,"color":"1"},
+		{"id":"f96f78e7abd93284","type":"text","text":"Lógicos","x":-780,"y":429,"width":250,"height":60,"color":"1"},
+		{"id":"05a66f6f0b30b962","x":-1520,"y":-192,"width":360,"height":187,"color":"1","type":"text","text":"\n# Ordem dos operadores\n-  `( )`\n- `**`\n- `*` `/` `%`\n- `+` `-`"}
+	],
+	"edges":[
+		{"id":"83c284945b309e64","fromNode":"11f81e0e910e1d2b","fromSide":"left","toNode":"f607b6c1ad750b15","toSide":"right","color":"2"},
+		{"id":"ac2fc75e0b21d162","fromNode":"f607b6c1ad750b15","fromSide":"left","toNode":"204f2bb598126301","toSide":"right","color":"1"},
+		{"id":"6d51734c5319a603","fromNode":"c74eb08be30ebf36","fromSide":"left","toNode":"1b2881403125dd84","toSide":"right","color":"1"},
+		{"id":"000b7005c98d5394","fromNode":"11f81e0e910e1d2b","fromSide":"top","toNode":"0a390d7eaba5f1f4","toSide":"bottom","color":"2"},
+		{"id":"4182ab7628309942","fromNode":"11f81e0e910e1d2b","fromSide":"top","toNode":"1b1b1ff666bde148","toSide":"bottom","color":"2"},
+		{"id":"a03620e3f5bdfc80","fromNode":"f96f78e7abd93284","fromSide":"left","toNode":"3445bcb68a023ac4","toSide":"right","color":"1"},
+		{"id":"555750a056023351","fromNode":"11f81e0e910e1d2b","fromSide":"left","toNode":"c74eb08be30ebf36","toSide":"right","color":"2"},
+		{"id":"839d8139e112b370","fromNode":"11f81e0e910e1d2b","fromSide":"left","toNode":"f96f78e7abd93284","toSide":"right","color":"2"},
+		{"id":"d5c7b67e4e515a17","fromNode":"204f2bb598126301","fromSide":"left","toNode":"05a66f6f0b30b962","toSide":"right","color":"1"}
+	]
+}

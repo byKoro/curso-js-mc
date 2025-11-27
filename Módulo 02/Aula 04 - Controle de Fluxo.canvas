@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"25faee03ebc31653","type":"text","text":"# Aula 04 - Controle de Fluxo","x":-220,"y":-220,"width":374,"height":60,"color":"2"},
+		{"id":"dbd70491d355d5d4","type":"text","text":"# Desafio 03\nFaça um script que diga se um valor x é maior que 10, se for faça ele dizer \"O valor é maior que 10\", caso contrário, diga \"O valor é menor que 10\".","x":154,"y":-444,"width":401,"height":144,"color":"1"},
+		{"id":"62dfe41d1f8be6e3","type":"text","text":"# Desafio 04\nFaça um script que some duas notas e calcule se a média é maior que 6, se caso seja verdadeiro diga que o aluno passou, caso contrário, diga que ele reprovou.","x":154,"y":-89,"width":401,"height":174,"color":"1"},
+		{"id":"a4a9ffca49d6dace","type":"text","text":"switch","x":-577,"y":-60,"width":250,"height":60,"color":"1"},
+		{"id":"c7ab8cea802d6afe","type":"text","text":"```\nswitch (cor) {\n  case \"vermelho\":\n    console.log(\"Pare\");\n    break;\n  case \"verde\":\n    console.log(\"Siga\");\n    break;\n  default:\n    console.log(\"Cor desconhecida\");\n}","x":-639,"y":40,"width":374,"height":298,"color":"1"},
+		{"id":"59d959e4c4d12057","type":"text","text":"```\nif (nota >= 9) {\n  console.log(\"A\");\n} else if (nota >= 7) {\n  console.log(\"B\");\n} else {\n  console.log(\"C\");\n}","x":-585,"y":-640,"width":267,"height":226,"color":"1"},
+		{"id":"45d3db07ff3be5fd","type":"text","text":"if / else","x":-577,"y":-360,"width":250,"height":60,"color":"1"},
+		{"id":"df62b5d4db29f7f3","type":"text","text":"```\ncondição ? valor_se_verdadeiro : valor_se_falso\n\nlet idade = 18;\n\nlet status = idade >= 18 ? \"Maior de idade\" : \"Menor de idade\";\n\nconsole.log(status);","x":-1300,"y":-89,"width":621,"height":226,"color":"1"},
+		{"id":"54c463ec6884acf1","type":"text","text":"Operador Ternário","x":-1114,"y":-217,"width":250,"height":50,"color":"1"}
+	],
+	"edges":[
+		{"id":"6a7949879658ef7f","fromNode":"45d3db07ff3be5fd","fromSide":"top","toNode":"59d959e4c4d12057","toSide":"bottom","color":"1"},
+		{"id":"2fdd372b3eedad85","fromNode":"a4a9ffca49d6dace","fromSide":"bottom","toNode":"c7ab8cea802d6afe","toSide":"top","color":"1"},
+		{"id":"9c8c6a0e7abbd2d9","fromNode":"25faee03ebc31653","fromSide":"left","toNode":"45d3db07ff3be5fd","toSide":"bottom","color":"2"},
+		{"id":"06b394930b1e04be","fromNode":"25faee03ebc31653","fromSide":"left","toNode":"a4a9ffca49d6dace","toSide":"top","color":"2"},
+		{"id":"82613da01b5ba387","fromNode":"25faee03ebc31653","fromSide":"left","toNode":"54c463ec6884acf1","toSide":"right","color":"2","label":"Primeira Parte"},
+		{"id":"05702deb781aed78","fromNode":"54c463ec6884acf1","fromSide":"bottom","toNode":"df62b5d4db29f7f3","toSide":"top","color":"1"},
+		{"id":"091389ab8af03564","fromNode":"25faee03ebc31653","fromSide":"right","toNode":"dbd70491d355d5d4","toSide":"bottom","color":"2"},
+		{"id":"3b03545925cc8256","fromNode":"25faee03ebc31653","fromSide":"right","toNode":"62dfe41d1f8be6e3","toSide":"top","color":"2"}
+	]
+}

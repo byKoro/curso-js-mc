@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"2da3b9a919d2dcec","type":"text","text":"```\nlet bau = {\n  slot00: ['Tábua de Madeira', 6], // 0\n  slot01: ['Pedregulho', 16], // 1\n  slot02: ['Bloco de Ouro', 9], // 2\n};\nlet slot = 2;\nlet itemSlot = Object.values(bau)[slot][0];\nlet quantidadeSlot = Object.values(bau)[slot][1];\nlet mensagem = `O item do slot ${slot} é ${itemSlot}, nele contém ${quantidadeSlot} itens`;\n\nconsole.warn(mensagem);","x":-640,"y":-300,"width":700,"height":346},
+		{"id":"5588f2f6c3801c3f","type":"text","text":"# Adicionar\n```\nfrutas.push(\"uva\"); // adiciona no final\nconsole.log(frutas);","x":845,"y":-199,"width":429,"height":144,"color":"1"},
+		{"id":"a9e1fd261e8d16eb","type":"text","text":"Manipulando Arrays","x":560,"y":-330,"width":250,"height":60,"color":"1"},
+		{"id":"ff91a40077e6d3ec","type":"text","text":"```\nlet frutas = [\"maçã\", \"banana\", \"laranja\"];\n\nconsole.log(frutas[0]); // maçã\nconsole.log(frutas[2]); // laranja","x":1306,"y":-372,"width":587,"height":145,"color":"1"},
+		{"id":"ce2f904103da36f5","type":"text","text":"- Arrays são listas que guardam **vários valores** em uma única variável.\n    \n- Cada valor tem um **índice**, começando do 0.","x":866,"y":-345,"width":387,"height":91,"color":"1"},
+		{"id":"25873e284d97c26d","type":"text","text":"# Percorrer\n```\nfor (let i = 0; i < frutas.length; i++) {\n  console.log(frutas[i]);\n}\n\n// ou usando forEach\nfrutas.forEach(function(fruta) {\n  console.log(fruta);\n});","x":845,"y":180,"width":429,"height":297,"color":"1"},
+		{"id":"10597a000677f32b","type":"text","text":"# Remover\n```\nfrutas.pop(); // remove o último item\nconsole.log(frutas);","x":845,"y":-14,"width":429,"height":144,"color":"1"},
+		{"id":"ffefdccdc9fec7d9","type":"text","text":"Introdução aos Objetos","x":220,"y":-199,"width":250,"height":60,"color":"1"},
+		{"id":"aa90168ff4dcf5fc","type":"text","text":"- Objetos guardam **informações estruturadas**, usando **chave: valor**.\n    \n- São ótimos para representar coisas do mundo real, como pessoas, carros, produtos.","x":103,"y":-85,"width":484,"height":120,"color":"1"},
+		{"id":"19ea20a7ca3340cc","type":"text","text":"# Criando um Objeto\n```\nlet pessoa = {\n  nome: \"Yuri\",\n  idade: 20,\n  profissao: \"estudante\"\n};\n\nconsole.log(pessoa.nome); // Yuri\nconsole.log(pessoa.idade); // 20","x":103,"y":80,"width":484,"height":297,"color":"1"},
+		{"id":"459cc714a65a5dde","type":"text","text":"# Manipulando Objetos\n```\n// Adicionar\npessoa.altura = 1.75;\n\n// Alterar\npessoa.idade = 21;\n\n// Remover\ndelete pessoa.profissao;\n\nconsole.log(pessoa);","x":103,"y":400,"width":484,"height":345,"color":"1"},
+		{"id":"22e2dced242ed158","type":"text","text":"# Array e Objetos\n```\n// Adicionar\npessoa.altura = 1.75;\n\n// Alterar\npessoa.idade = 21;\n\n// Remover\ndelete pessoa.profissao;\n\nconsole.log(pessoa);","x":103,"y":768,"width":484,"height":345,"color":"1"},
+		{"id":"b6711da4c341c14e","type":"text","text":"# Aula 07 - Objetos e Listas","x":220,"y":-336,"width":250,"height":72,"color":"2"}
+	],
+	"edges":[
+		{"id":"0d91f017356f13e8","fromNode":"ce2f904103da36f5","fromSide":"right","toNode":"ff91a40077e6d3ec","toSide":"left","color":"1"},
+		{"id":"7b716b613b1da4e8","fromNode":"5588f2f6c3801c3f","fromSide":"bottom","toNode":"10597a000677f32b","toSide":"top","color":"1"},
+		{"id":"06e98d5e4a3b9f53","fromNode":"b6711da4c341c14e","fromSide":"bottom","toNode":"ffefdccdc9fec7d9","toSide":"top","color":"2"},
+		{"id":"9e0953887edb0cd6","fromNode":"ffefdccdc9fec7d9","fromSide":"bottom","toNode":"aa90168ff4dcf5fc","toSide":"top","color":"1"},
+		{"id":"16bbb27157509d30","fromNode":"b6711da4c341c14e","fromSide":"right","toNode":"a9e1fd261e8d16eb","toSide":"left","color":"2"},
+		{"id":"2b347d42eeb83826","fromNode":"a9e1fd261e8d16eb","fromSide":"right","toNode":"ce2f904103da36f5","toSide":"left"},
+		{"id":"ce847295feab0912","fromNode":"a9e1fd261e8d16eb","fromSide":"right","toNode":"ce2f904103da36f5","toSide":"left","color":"1"},
+		{"id":"ded92929fbcc3887","fromNode":"ce2f904103da36f5","fromSide":"bottom","toNode":"5588f2f6c3801c3f","toSide":"top","color":"1"},
+		{"id":"0a2d8b674ebb3c61","fromNode":"10597a000677f32b","fromSide":"bottom","toNode":"25873e284d97c26d","toSide":"top","color":"1"},
+		{"id":"b7a73b3dfdd1aa25","fromNode":"aa90168ff4dcf5fc","fromSide":"bottom","toNode":"19ea20a7ca3340cc","toSide":"top","color":"1"},
+		{"id":"e4d986d61484c3f8","fromNode":"19ea20a7ca3340cc","fromSide":"bottom","toNode":"459cc714a65a5dde","toSide":"top","color":"1"},
+		{"id":"b4f94b903d93d4f4","fromNode":"459cc714a65a5dde","fromSide":"bottom","toNode":"22e2dced242ed158","toSide":"top","color":"1"}
+	]
+}
